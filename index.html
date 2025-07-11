@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NutriFriend - Cadastro</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container" id="pagina1">
+    <div class="esquerda">
+      <h1><span class="normal">Bem-vindo<br>ao Nutri</span><span class="azul">Friend</span></h1>
+    </div>
+    <div class="direita">
+      <div class="form-box">
+        <div class="tabs">
+          <button class="tab ativo">Paciente</button>
+          <button class="tab">Nutricionista</button>
+        </div>
+        <form id="cadastroForm">
+          <input type="text" placeholder="Nome e sobrenome" id="nome" required />
+          <input type="email" placeholder="Email" id="email" required />
+          <input type="tel" placeholder="Telefone" id="telefone" required />
+          <input type="password" placeholder="Senha" id="senha" required />
+          <input type="text" placeholder="CRN" id="crn" required />
+          <button type="button" class="botao-seta" onclick="validarFormulario()">➜</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="container oculto" id="pagina2">
+    <div class="cabecalho">
+      <h1><span class="normal">Bem-vindo<br>ao Nutri</span><span class="azul">Friend</span></h1>
+      <div class="codigo-box">
+        <p>Código de nutricionista:</p>
+        <div class="codigo">#123456769</div>
+      </div>
+    </div>
+    <div class="lista">
+      <div class="card">
+        <img src="https://img.icons8.com/ios-filled/50/000000/user-male-circle.png"/>
+        <span>Ana Silva</span>
+        <span>ana.silva@email.com</span>
+        <span>CPF:123.456.789-00</span>
+      </div>
+      <div class="card">
+        <img src="https://img.icons8.com/ios-filled/50/000000/user-male-circle.png"/>
+        <span>Ana Silva</span>
+        <span>ana.silva@email.com</span>
+        <span>CPF:123.456.789-00</span>
+      </div>
+      <div class="card">
+        <img src="https://img.icons8.com/ios-filled/50/000000/user-male-circle.png"/>
+        <span>Ana Silva</span>
+        <span>ana.silva@email.com</span>
+        <span>CPF:123.456.789-00</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background: #ccc;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .esquerda {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .esquerda h1 {
+    font-size: 3em;
+    color: #1e2b3a;
+  }
+  
+  .azul {
+    color: #1a75ff;
+  }
+  
+  .direita {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form-box {
+    background: #004b99;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    width: 350px;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+  }
+  
+  .tab {
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+  
+  .ativo {
+    background: #1a75ff;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+  }
+  
+  .botao-seta {
+    align-self: flex-end;
+    background: white;
+    color: black;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+  }
+  
+  .oculto {
+    display: none;
+  }
+  
+  #pagina2 .cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .codigo-box {
+    background: #0053a0;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+  .codigo {
+    background: white;
+    color: black;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    margin-top: 5px;
+  }
+  
+  .lista {
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .card {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    background: white;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1em;
+  }
+  
+  .card img {
+    width: 40px;
+    height: 40px;
+  }
+  
